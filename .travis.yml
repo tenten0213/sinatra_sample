@@ -1,0 +1,9 @@
+language: ruby
+script: "bundle exec rspec"
+rvm:
+  - 2.0.0-p247
+gemfile:
+  - Gemfile
+notifications:
+  webhooks:
+    - https://idobata.io/hook/82bb63a6-3742-496f-a027-5af29fcaeb7a
