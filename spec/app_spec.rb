@@ -15,6 +15,6 @@ describe 'HelloWorld App' do
   it "says hello" do
     get '/'
     last_response.should be_ok
-    last_response.body.should eq 'Hello world!'
+    last_response.body.should eq 'Hello World!'
   end
 end
